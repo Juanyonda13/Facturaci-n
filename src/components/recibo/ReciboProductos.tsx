@@ -22,6 +22,7 @@ const formatCOP = (valor: number): string => {
 
 export default function ReciboProductos() {
   const { isOpen, openModal, closeModal } = useModal();
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [productos, setProductos] = useState([
     {
       id: 1,
